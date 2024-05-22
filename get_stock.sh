@@ -4,7 +4,7 @@
 userName="logonebihrapi"
 passWord="passwdebihrapi"
 apiUrl="https://api.bihr.net/api/v2.1"
-downloadPath="stocks"  # Zakładam, że skrypt jest uruchamiany z 'public_html'
+downloadPath="stocks"  # Relative path to file
 newFileName="stocks.csv"
 
 function download_and_process {
